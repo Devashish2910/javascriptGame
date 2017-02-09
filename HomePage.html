@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Devashish Patel</title>
+</head>
+
+<body>
+    <div class="wrapper clearfix">
+        <div class="player-0-panel">
+            <div class="player-name"></div>
+            <div class="player-current-label" style="width:280%; font-size: 16px;">- The game has 2 players, playing in rounds.
+                <br> - In each turn, a player rolls a dice as many times as he/she whishes. Each result gets added to his/her ROUND score
+                <br> - BUT, if the player rolls a '1' ( if get '1' in dice rolling), all his Round score gets lost. After that, it's the next player's turn.
+                <br> - The player can choose to 'Hold', which means that his ROUND score gets added to his GLOBAL score. After that, it's the next player's turn.
+                <br> - The first player to reach Winning Score on GLOBAL score wins the game. (Winning Score will be decided by you..!!) </div>
+        </div>
+        <button class="btn-new">Game Rules</button>
+        <button class="btn-roll" onclick="onClick()"><i class="ion-ios-plus-outline"></i>New game</button>
+    </div>
+    <script>
+        function onClick() {
+            location.href = "GamePage.html";
+        }
+    </script>
+</body>
+
+</html>S
