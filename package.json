@@ -1,0 +1,11 @@
+{
+  "name": "my-javascript-game",
+  "version": "1.0.0",
+  "description": "Javascript Pig Game",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
+}
