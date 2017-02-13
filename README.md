@@ -2,7 +2,7 @@
 
 GAME RULES:
 
-- The game has 2 players and there are two dices. 
+- The game has 2 players and there are 2 dices. 
 - In each turn, a player rolls dices as many times as he whishes. Each result get added to his ROUND score.
 - BUT, if...
     - a player gets a 1 in any one dice, all his ROUND score gets lost. After that, it's the next player's turn.

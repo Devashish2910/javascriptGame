@@ -118,6 +118,9 @@ document.querySelector('.btn-reset').addEventListener('click', function () {
 // Resetgame event fire
 function resetGame() {
     
+    //Remove winner class
+     document.querySelector('.player-' + activePlayer + '-panel').classList.remove('winner');
+    
     askWinningScore();
     function askWinningScore() {
         winningTotal = parseInt(prompt("Please Enter Winning Score (between 10 to 1000)"));
