@@ -19,8 +19,8 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
     // Display dice image according to dice value
     document.getElementById('img').style.display = 'block';
     document.getElementById('img1').style.display = 'block';
-    document.getElementById('img').src = "dice-" + dice1 + ".png";
-    document.getElementById('img1').src = "dice-" + dice2 + ".png";
+    document.getElementById('img').src = "../Images/dice-" + dice1 + ".png";
+    document.getElementById('img1').src = "../Images/dice-" + dice2 + ".png";
     
     // Add the Localscore of an Active Player if it is not 1.
     if (dice1 == 1 || dice2 == 1) {
@@ -102,7 +102,7 @@ document.querySelector('.btn-new').addEventListener('click', newGame);
 function newGame() {
     
     // Page redirect to Home Page
-    location.href = "HomePage.html"
+    location.href = "../HTML/HomePage.html"
 }
 
 // 'Reset' button onclick event
