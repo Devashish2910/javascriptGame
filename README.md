@@ -10,4 +10,4 @@ GAME RULES:
 - The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn.
 - The first player to reach Winning Total points on GLOBAL score wins the game. (Players will decide the winning score..!!)
 
-Heroku Link - https://floating-reef-40072.herokuapp.com/
+Heroku Link - https://dicegamebydgp.herokuapp.com/
